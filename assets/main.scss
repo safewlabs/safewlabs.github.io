@@ -3,12 +3,14 @@
 
 $text-color: #46433A;
 $anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$background-color: #ffffff;
 
 body {
-	font-family: 'Vollkorn', serif;
+	// font-family: 'Work Sans', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	color: $text-color;
 	background-color: $background-color;
+	font-size: 20px;
 }
 
 header,
@@ -60,14 +62,11 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
+	width: 200px;
+	height: 225px;
 	display: inline-block;
 	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
 	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
 }
 
 /*** author ***/
@@ -139,7 +138,7 @@ footer {
 	.author-container h1,
 	.logo-container,
 	.tagline-container p {
-		text-align: right;
+		text-align: center;
 	}
 
 	main {
