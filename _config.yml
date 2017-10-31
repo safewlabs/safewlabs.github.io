@@ -1,5 +1,5 @@
 # general configuration
-url: http://comix.life
+url: https://comix.life
 enforce_ssl: "http://comix.life"
 baseurl: ''
 
